@@ -14,39 +14,39 @@ The data set include approx 25900 unique orders and 541910 order lines.
 
 ## Business Requirements
 * The Business requirements are to identify the following 
-Average value of invoice per customer per country
-Most popular product per country
-Average number of product per invoice as a whole
-     Max, mean, median, min
-Maximum value of invoice per country
-Count of invoices per customer per country
-     Max, mean, median, min
-Seasonality of products
+Exclude non product items
+Product quanties between 1 and 6000
+Highest unit price 700
+Indentify most popular product and show seasonality
 
 
 
 ## Hypothesis and how to validate?
-* Jam making most popular in UK    -  This will be identifies by analysing the distribution of jam making products by country
-Union jack products most popular in the UK -  This will be identified by analysing the distribution of union jack products bycountry
-Most order have  more than 1 or 2 products
-Most customer have placed single orders
+* Jam making most popular in UK    -  This will be identifies by analysing the distribution of jam making products by country. Only UK orders were analysed the volumes of non UK order were too low to be considered. 91 % of order were from the UK.
+
+Union jack products most popular in the UK -  This will be identified by analysing the distribution of union jack products bycountry - This was proved true.
+
+Homeware was the most popular product
 
 
 ## Project Plan
-*
+* CLean data
+* Create visualisations
+* Test visualisations
+* Crate interactive visualisations ( I couldn't get this to work)
 
 ## The rationale to map the business requirements to the Data Visualisations
 * List your business requirements and a rationale to map them to the Data Visualisations
 
 ## Analysis techniques used
-* I created product groups to help categorise the products?
+* I looked at geographical analysis of the data an found it was not suitable 
+* I created product groups to help categorise the products
 * I used chat GPT to help categorise the products to save time
+* showed product groups over time based graphs to identify seasonality
+
 
 ## Ethical considerations
 * There is no customer detail that can be traced to an individual.  Customer ID is used but
-
-
-## Dashboard Design
 
 
 ## Unfixed Bugs
@@ -60,20 +60,10 @@ Most customer have placed single orders
 ## Credits 
 
 * Code Instritute training materials
-* I used chat GPT to help with fixing errors and to help wiht interactive graph
-
-### Content 
-
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign-Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
-
-- The photos used on the home and sign-up page are from This Open-Source site
-- The images used for the gallery page were taken from this other open-source site
-
+* I used chat GPT to help with fixing errors and to help with interactive graph and data cetegorisation
 
 
 ## Acknowledgements (optional)
-* Thank the people who provided support through this project.
+* I would lie to thank Vasi for his help and guidance
+* I would lie to thank Mark and Neil for there demonstrations of knowledge
+* Lee Merchant and Teresa for their support and encoragement
